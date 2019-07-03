@@ -12,8 +12,7 @@ body{
 }
 /*header start*/
 header{
-	padding: 30px;
-	padding-right: 0;
+	padding: 30px 0;
 }
 .wrapper{
 	width: 90%;
@@ -32,7 +31,9 @@ header{
 	width: 72%;
 	float: right;
 }
-.menu ul{}
+.menu ul{
+	float: right;
+}
 .menu ul li{
 	list-style: none;
 	float: left;
@@ -112,7 +113,6 @@ header{
 .wrapper3{
 	width: 26%;
 	margin: 0 auto;
-	text-align: center;
 	padding-top: 40px;
 }
 .wrapper3 h1{
@@ -120,26 +120,28 @@ header{
 	margin-bottom: 70px;
 }
 .form{
-	text-align: center;
 	overflow: hidden;
 }
 .email{
 	float: left;
 	background-color: #F0F0F0;
 }
-.form input {
-            background: transparent;
-            border-top: transparent !important;
-            border-left: transparent !important;
-            border-right: transparent !important;
-            border-bottom: 0 !important;
-            font-weight: 200;
-            color: black;
-            padding-left: 0;
-            box-shadow: none;
+.form input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    float: left;
 }
-.sign-img{
+.form button{
+	background: transparent;
+	border: none;
+	outline: none;
 	float: right;
+}
+.form button img{
+	width: 100%;
 }
 /*signup end*/
 /*load start*/
@@ -150,19 +152,23 @@ header{
 	margin: 110px;
 	text-align: center;
 }
-.button{
-	padding: 20px;
-	font-size: 14px;
+.wrapper4 button{
+	font-family: 'Playfair Display', serif;
+	padding: 20px 30px;
+	font-size: 18px;
+	color: #626262;
 	background-color: white;
 	transition: .5s;
+	outline: none;
+	border: 1px solid dimgray;
 }
-.button:hover{
+.wrapper4 button:hover{
 	color: #626262;
 }
 /*load end*/
 /*footer start*/
 footer{
-	padding: 20px;
+	padding: 20px 0;
 	background-color: #F0F0F0;
 }
 .menu1{
