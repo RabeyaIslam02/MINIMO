@@ -63,7 +63,7 @@ header{
 /*header end*/
 /*getaway start*/
 .getaway{
-	padding: 60px 0;
+	padding: 70px 0;
 }
 .wrapper2{
 	width: 78%;
@@ -86,6 +86,9 @@ header{
 	word-spacing: 1px;
 	margin-bottom: 35px;
 }
+.p_content:nth-last-child(5) {
+	margin-bottom: 0;
+}
 /*getaway end*/
 /*blog start*/
 .blog{}
@@ -106,50 +109,46 @@ header{
 /*blog end*/
 /*signup start*/
 .sign{
-	min-height: 250px;
+	min-height: 290px;
 	background-color: #F0F0F0;
 	margin: 70px 0;
 }
 .wrapper3{
-	width: 26%;
+	width: 27%;
 	margin: 0 auto;
-	padding-top: 40px;
-}
-.wrapper3 h1{
-	color: #000000;
-	margin-bottom: 70px;
 }
 .form{
-	overflow: hidden;
+	padding-top: 60px;
+}
+label{
+	font-size: 30px;
+	color: #333333;
 }
 .email{
-	float: left;
-	background-color: #F0F0F0;
-}
-.form input{
+	width: 87%;
+    height: 15px;
+    padding: 5px;
+    padding-left: 0;
+    font-size: 14px;
     background: transparent;
     border: none;
     outline: none;
-    color: black;
-    font-size: 16px;
-    float: left;
+    font-family: 'Playfair Display', serif;
+    margin-top: 80px;
 }
 .form button{
 	background: transparent;
 	border: none;
 	outline: none;
-	float: right;
+	padding: 0;
 }
 .form button img{
 	width: 100%;
 }
 /*signup end*/
 /*load start*/
-.load{
-	min-height: 100px;
-}
 .wrapper4{
-	margin: 110px;
+	margin: 130px 0 165px 0;
 	text-align: center;
 }
 .wrapper4 button{
@@ -175,8 +174,14 @@ footer{
 	width: 50%;
 	float: left;
 }
+.menu1 ul{
+	padding: 0;
+}
 .menu2{
 	width: 23%;
+	float: right;
+}
+.menu2 ul{
 	float: right;
 }
 .menu1 ul li, .menu2 ul li{
@@ -189,5 +194,11 @@ footer{
 	padding: 0 8px;
 	display: block;
 	color: #000000;
+}
+.menu1 ul li:first-child a{
+	padding-left: 0;
+}
+.menu2 ul li:last-child a{
+	padding-right: 0;
 }
 /*footer end*/
