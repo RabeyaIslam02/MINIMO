@@ -54,9 +54,6 @@ header{
 }
 /*header end*/
 /*banner start*/
-.bsnner{
-
-}
 .banner-img{
 	width: 100%;
 }
@@ -89,6 +86,39 @@ header{
 .p_content:nth-last-child(5) {
 	margin-bottom: 0;
 }
+.comment{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #626262;
+	background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0;
+}
+::-webkit-input-placeholder {
+  color: #b4ad9e;
+}
+/*textarea::-webkit-input-placeholder {
+  color: #b4ad9e;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+/*  color: #b4ad9e;
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+/*  color: #b4ad9e;
+}
+
+textarea:-ms-input-placeholder {
+  color: #b4ad9e;
+}
+
+textarea::placeholder {
+  color: #b4ad9e;
+}*/
 /*getaway end*/
 /*blog start*/
 .blog{}
@@ -119,6 +149,7 @@ header{
 }
 .form{
 	padding-top: 60px;
+	position: absolute;
 }
 label{
 	font-size: 30px;
@@ -162,7 +193,9 @@ label{
 	border: 1px solid dimgray;
 }
 .wrapper4 button:hover{
-	color: #626262;
+	color: white;
+	background-color: #626262;
+	/*border: 1px solid white;*/
 }
 /*load end*/
 /*footer start*/
@@ -200,5 +233,9 @@ footer{
 }
 .menu2 ul li:last-child a{
 	padding-right: 0;
+}
+.menu1 ul li a:hover, .menu2 ul li a:hover{
+	color: #b4ad9e;
+	transition: .5s;
 }
 /*footer end*/
